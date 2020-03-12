@@ -1,4 +1,4 @@
-package com.stoloto.logs.logger;
+package com.stoloto.logs.deprecated;
 
 
 import static org.apache.logging.log4j.core.jackson.JsonConstants.ELT_INSTANT;

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Configuration status="DEBUG" strict="true" packages="com.stoloto">
     <Appenders>
-        <MapAppender name="MapAppender">
+		<MapAppender name="GoslotoAppender">
             <!--            <LokiJsonLayout />-->
             <!--            <ThresholdFilter level="DEBUG" />-->
         </MapAppender>

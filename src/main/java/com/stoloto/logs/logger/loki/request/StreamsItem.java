@@ -1,4 +1,4 @@
-package com.stoloto.logs.model;
+package com.stoloto.logs.logger.loki.request;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;

@@ -1,4 +1,4 @@
-package com.stoloto.logs.model;
+package com.stoloto.logs.logger.model;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonProperty;
@@ -16,7 +16,7 @@ import org.apache.logging.log4j.message.Message;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class LokiDelegateLogEvent {
+public class LokiLog {
 
     @JsonProperty("ts")
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd HH:mm:SSS")
@@ -29,8 +29,8 @@ public class LokiDelegateLogEvent {
     private ThrowableProxy thrown;
 
 
-    public static LokiDelegateLogEvent ofLogEvent(LogEvent logEvent) {
-        return LokiDelegateLogEvent.builder()
+	public static LokiLog ofLogEvent(LogEvent logEvent) {
+		return LokiLog.builder()
                 .date(new Date(logEvent.getInstant().getEpochMillisecond()))
                 .level(logEvent.getLevel())
                 .loggerName(logEvent.getLoggerName())

@@ -1,10 +1,10 @@
 package com.stoloto.logs.logger;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.stoloto.logs.model.LokiDelegateLogEvent;
-import com.stoloto.logs.model.LokiRequest;
-import com.stoloto.logs.model.Stream;
-import com.stoloto.logs.model.StreamsItem;
+import com.stoloto.logs.logger.loki.request.LokiRequest;
+import com.stoloto.logs.logger.loki.request.Stream;
+import com.stoloto.logs.logger.loki.request.StreamsItem;
+import com.stoloto.logs.logger.model.LokiLog;
 import java.io.Serializable;
 import java.util.List;
 import java.util.Map;
@@ -26,30 +26,30 @@ import org.springframework.http.MediaType;
 import org.springframework.web.client.RestTemplate;
 
 @Plugin(
-        name = "MapAppender",
-        category = Core.CATEGORY_NAME,
-        elementType = Appender.ELEMENT_TYPE)
-public class MapAppender extends AbstractAppender {
+	name = "GoslotoAppender",
+	category = Core.CATEGORY_NAME,
+	elementType = Appender.ELEMENT_TYPE)
+public class GoslotoAppender extends AbstractAppender {
 
     private static final RestTemplate REST_TEMPLATE = new RestTemplate();
 
 
-    protected MapAppender(String name,
-                          Filter filter,
-                          Layout<? extends Serializable> layout,
-                          boolean ignoreExceptions,
-                          Property[] properties) {
+	protected GoslotoAppender(String name,
+							  Filter filter,
+							  Layout<? extends Serializable> layout,
+							  boolean ignoreExceptions,
+							  Property[] properties) {
         super(name, filter, layout, ignoreExceptions, properties);
     }
 
 
     @PluginFactory
-    public static MapAppender createAppender(@PluginAttribute("name") String name,
-                                             @PluginAttribute("ignoreExceptions") boolean ignoreExceptions,
-                                             @PluginElement("Layout") Layout<? extends Serializable> layout,
-                                             @PluginElement("properties") Property[] properties,
-                                             @PluginElement("Filter") Filter filter) {
-        return new MapAppender(name, filter, layout, ignoreExceptions, properties);
+	public static GoslotoAppender createAppender(@PluginAttribute("name") String name,
+												 @PluginAttribute("ignoreExceptions") boolean ignoreExceptions,
+												 @PluginElement("Layout") Layout<? extends Serializable> layout,
+												 @PluginElement("properties") Property[] properties,
+												 @PluginElement("Filter") Filter filter) {
+		return new GoslotoAppender(name, filter, layout, ignoreExceptions, properties);
     }
 
 
@@ -61,7 +61,7 @@ public class MapAppender extends AbstractAppender {
         var headers = new HttpHeaders();
         headers.setContentType(MediaType.APPLICATION_JSON);
 
-        var lokiJsonObject = LokiDelegateLogEvent.ofLogEvent(event);
+		var lokiJsonObject = LokiLog.ofLogEvent(event);
         var lokiStringValue = objectMapper.writeValueAsString(lokiJsonObject);
 
         long nanoTime = event.getInstant().getEpochMillisecond();

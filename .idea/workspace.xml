@@ -1,45 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ec7d0ca-6f99-4912-8332-a7e8f3d8a04d" name="Default Changelist" comment="enable">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/stoloto/logs/utils/LokiCustomSerializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="2ec7d0ca-6f99-4912-8332-a7e8f3d8a04d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/logs.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/stoloto/logs/config/GoslotoAppender.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/stoloto/logs/config/LokiEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stoloto/logs/logger/LokiEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/stoloto/logs/config/LokiJsonLayout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stoloto/logs/logger/LokiJsonLayout.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/stoloto/logs/config/LokiLogEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stoloto/logs/logger/LokiLogEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/stoloto/logs/config/MapAppender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stoloto/logs/logger/MapAppender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/stoloto/logs/config/pojo/LokiDelegateLogEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stoloto/logs/model/LokiDelegateLogEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/stoloto/logs/config/pojo/LokiRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stoloto/logs/model/LokiRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/stoloto/logs/config/pojo/Stream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stoloto/logs/model/Stream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/stoloto/logs/config/pojo/StreamsItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stoloto/logs/model/StreamsItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/stoloto/logs/config/pojo/UnWrapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/stoloto/logs/model/News.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/stoloto/logs/test/ConfTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/stoloto/logs/web/TestWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stoloto/logs/web/TestWeb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/logs.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/org/apache/logging/log4j/core/config/plugins/Log4j2Plugins.dat" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/org/apache/logging/log4j/core/config/plugins/Log4j2Plugins.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/stoloto/logs/config/GoslotoAppender.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/stoloto/logs/config/LokiEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/stoloto/logs/config/LokiJsonLayout.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/stoloto/logs/config/LokiLogEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/stoloto/logs/config/MapAppender.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/stoloto/logs/config/pojo/LokiDelegateLogEvent$LokiDelegateLogEventBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/stoloto/logs/config/pojo/LokiDelegateLogEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/stoloto/logs/config/pojo/LokiRequest$LokiRequestBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/stoloto/logs/config/pojo/LokiRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/stoloto/logs/config/pojo/Stream$StreamBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/stoloto/logs/config/pojo/Stream.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/stoloto/logs/config/pojo/StreamsItem$StreamsItemBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/stoloto/logs/config/pojo/StreamsItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/stoloto/logs/config/pojo/UnWrapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/stoloto/logs/model/News.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/stoloto/logs/test/ConfTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/stoloto/logs/web/TestWeb.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/stoloto/logs/web/TestWeb.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stoloto/logs/logger/LokiEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stoloto/logs/deprecated/LokiEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stoloto/logs/logger/LokiJsonLayout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stoloto/logs/deprecated/LokiJsonLayout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stoloto/logs/logger/LokiLogEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stoloto/logs/deprecated/LokiLogEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stoloto/logs/logger/MapAppender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stoloto/logs/logger/GoslotoAppender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -113,12 +81,12 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.LogsApplication">
-    <configuration name="LokiSerializer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.stoloto.logs.utils.LokiSerializer" />
+    <configuration name="GoslotoAppender" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.stoloto.logs.logger.GoslotoAppender" />
       <module name="logs" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.stoloto.logs.utils.*" />
+          <option name="PATTERN" value="com.stoloto.logs.config.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapAppender" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.stoloto.logs.logger.MapAppender" />
+    <configuration name="LokiSerializer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.stoloto.logs.utils.LokiSerializer" />
       <module name="logs" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.stoloto.logs.config.*" />
+          <option name="PATTERN" value="com.stoloto.logs.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,7 +117,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.LokiSerializer" />
-        <item itemvalue="Application.MapAppender" />
+        <item itemvalue="Application.GoslotoAppender" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +134,7 @@
       <workItem from="1583587475927" duration="38326000" />
       <workItem from="1583961570415" duration="7180000" />
       <workItem from="1583968881058" duration="13292000" />
-      <workItem from="1584001917410" duration="4528000" />
+      <workItem from="1584001917410" duration="4696000" />
     </task>
     <task id="LOCAL-00001" summary="gt">
       <created>1583587555008</created>
@@ -196,7 +164,21 @@
       <option name="project" value="LOCAL" />
       <updated>1583633807806</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="change integration with loki">
+      <created>1584013355231</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1584013355231</updated>
+    </task>
+    <task id="LOCAL-00006" summary="change integration">
+      <created>1584013364839</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1584013364839</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,7 +202,9 @@
     <MESSAGE value="add layout" />
     <MESSAGE value="add logger" />
     <MESSAGE value="configure log4j2.yml" />
-    <option name="LAST_COMMIT_MESSAGE" value="configure log4j2.yml" />
+    <MESSAGE value="change integration with loki" />
+    <MESSAGE value="change integration" />
+    <option name="LAST_COMMIT_MESSAGE" value="change integration" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -345,7 +329,7 @@
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/stoloto/logs/logger/LokiLogEvent.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/stoloto/logs/deprecated/LokiLogEvent.java</url>
           <line>42</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
@@ -370,7 +354,7 @@
           <option name="timeStamp" value="42" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/stoloto/logs/logger/LokiLogEvent.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/stoloto/logs/deprecated/LokiLogEvent.java</url>
           <line>100</line>
           <option name="timeStamp" value="45" />
         </line-breakpoint>
@@ -410,17 +394,17 @@
           <option name="timeStamp" value="61" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/stoloto/logs/logger/MapAppender.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/stoloto/logs/logger/GoslotoAppender.java</url>
           <line>94</line>
           <option name="timeStamp" value="64" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/stoloto/logs/logger/MapAppender.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/stoloto/logs/logger/GoslotoAppender.java</url>
           <line>67</line>
           <option name="timeStamp" value="70" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/stoloto/logs/logger/MapAppender.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/stoloto/logs/logger/GoslotoAppender.java</url>
           <line>72</line>
           <option name="timeStamp" value="71" />
         </line-breakpoint>
