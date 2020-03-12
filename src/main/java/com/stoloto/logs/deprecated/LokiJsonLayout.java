@@ -1,19 +1,10 @@
 package com.stoloto.logs.deprecated;
 
 
-import static org.apache.logging.log4j.core.jackson.JsonConstants.ELT_INSTANT;
-import static org.apache.logging.log4j.core.jackson.JsonConstants.ELT_NANO_TIME;
-
 import com.fasterxml.jackson.core.util.MinimalPrettyPrinter;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ser.impl.SimpleBeanPropertyFilter;
 import com.fasterxml.jackson.databind.ser.impl.SimpleFilterProvider;
-import java.io.IOException;
-import java.nio.charset.StandardCharsets;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
 import org.apache.logging.log4j.core.Layout;
 import org.apache.logging.log4j.core.LogEvent;
 import org.apache.logging.log4j.core.config.Node;
@@ -28,6 +19,16 @@ import org.apache.logging.log4j.core.layout.AbstractStringLayout;
 import org.apache.logging.log4j.core.util.KeyValuePair;
 import org.apache.logging.log4j.core.util.StringBuilderWriter;
 import org.apache.logging.log4j.util.Strings;
+
+import java.io.IOException;
+import java.nio.charset.StandardCharsets;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
+
+import static org.apache.logging.log4j.core.jackson.JsonConstants.ELT_INSTANT;
+import static org.apache.logging.log4j.core.jackson.JsonConstants.ELT_NANO_TIME;
 
 /**
  * Borrowed heavily from org.apache.logging.log4j.core.layout.JsonLayout
@@ -46,7 +47,7 @@ public class LokiJsonLayout extends AbstractStringLayout {
      * @param includeStacktrace         - добавлять к ошибке стек трейс
      * @param stacktraceAsString        - сериализоваться стек трейс ввиде обычной строки (иначе ввиде json)
      * @param objectMessageAsJsonObject - пишет сообщения в json формате
-     * @param additionalFields          - Дополнительные атрибуты, ключ - значение
+     * @param keyValuePairs             - Дополнительные атрибуты, ключ - значение
      * @return возращает этот лайаут для логгирования ввиде json
      */
 
@@ -57,7 +58,7 @@ public class LokiJsonLayout extends AbstractStringLayout {
             @PluginAttribute(value = "objectMessageAsJsonObject", defaultBoolean = true) final boolean objectMessageAsJsonObject,
             @PluginAttribute(value = "stacktraceAsString") final boolean stacktraceAsString,
             @PluginAttribute(value = "encodeThreadContextAsList") final boolean encodeThreadContextAsList,
-            @PluginElement("AdditionalField") final KeyValuePair[] additionalFields
+            @PluginElement("KeyValuePairs") final KeyValuePair[] keyValuePairs
     ) {
 
         final var filters = new SimpleFilterProvider();
@@ -85,7 +86,7 @@ public class LokiJsonLayout extends AbstractStringLayout {
         )
                 .setDefaultPrettyPrinter(new MinimalPrettyPrinter())
                 .setFilterProvider(filters);
-        return new LokiJsonLayout(log4jJsonObjectMapper, additionalFields);
+        return new LokiJsonLayout(log4jJsonObjectMapper, keyValuePairs);
     }
 
     LokiJsonLayout(ObjectMapper objectMapper, KeyValuePair[] additionalFields) {

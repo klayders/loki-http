@@ -2,18 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ec7d0ca-6f99-4912-8332-a7e8f3d8a04d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_lmax_disruptor_3_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_web_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/stoloto/logs/config/scheduler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/----1log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/${log.file}" beforeDir="false" afterPath="$PROJECT_DIR$/${log.file}" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/stoloto/logs/logger/LokiEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stoloto/logs/deprecated/LokiEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/stoloto/logs/logger/LokiJsonLayout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stoloto/logs/deprecated/LokiJsonLayout.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/stoloto/logs/logger/LokiLogEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stoloto/logs/deprecated/LokiLogEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/stoloto/logs/logger/MapAppender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stoloto/logs/logger/GoslotoAppender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/logs.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stoloto/logs/LogsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stoloto/logs/LogsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stoloto/logs/deprecated/LokiJsonLayout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stoloto/logs/deprecated/LokiJsonLayout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stoloto/logs/web/TestWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stoloto/logs/web/TestWeb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/--log4j2.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/----log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/--log4j2.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/org/apache/logging/log4j/core/config/plugins/Log4j2Plugins.dat" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/org/apache/logging/log4j/core/config/plugins/Log4j2Plugins.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/stoloto/logs/LogsApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/stoloto/logs/LogsApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/stoloto/logs/web/TestWeb.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/stoloto/logs/web/TestWeb.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j2.xml" beforeDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="logs" />
@@ -48,6 +74,7 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -67,18 +94,6 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Spring Boot.LogsApplication">
     <configuration name="GoslotoAppender" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -189,7 +204,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -213,6 +230,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="491" y="109" width="374" height="575" key="#com.intellij.ide.util.MemberChooser/0.27.1366.741@0.27.1366.741" timestamp="1583979285329" />
+    <state x="524" y="288" width="308" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1584046655259">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="524" y="288" width="308" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.27.1366.741@0.27.1366.741" timestamp="1584046655259" />
     <state x="160" y="27" width="1035" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1583625183561">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -221,10 +242,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="638" y="177" width="728" height="591" key="#xdebugger.evaluate/0.27.1366.741@0.27.1366.741" timestamp="1583982277151" />
-    <state x="245" y="27" width="865" height="741" key="CommitChangelistDialog2" timestamp="1583633807720">
+    <state x="245" y="27" width="865" height="741" key="CommitChangelistDialog2" timestamp="1584052503550">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="245" y="27" width="865" height="741" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1583633807720" />
+    <state x="245" y="27" width="865" height="741" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1584052503550" />
     <state x="100" y="125" width="1166" height="543" key="DiffContextDialog" timestamp="1583765449682">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -233,82 +254,82 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="466" y="154" width="424" height="484" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1583961835396" />
-    <state width="1320" height="260" key="GridCell.Tab.0.bottom" timestamp="1583981951410">
+    <state width="1320" height="286" key="GridCell.Tab.0.bottom" timestamp="1584052528528">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="260" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1583981951410" />
-    <state width="1320" height="260" key="GridCell.Tab.0.center" timestamp="1583981951409">
+    <state width="1320" height="286" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1584052528528" />
+    <state width="1320" height="286" key="GridCell.Tab.0.center" timestamp="1584052528526">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="260" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1583981951409" />
-    <state width="1320" height="260" key="GridCell.Tab.0.left" timestamp="1583981951409">
+    <state width="1320" height="286" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1584052528526" />
+    <state width="1320" height="286" key="GridCell.Tab.0.left" timestamp="1584052528525">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="260" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1583981951409" />
-    <state width="1320" height="260" key="GridCell.Tab.0.right" timestamp="1583981951410">
+    <state width="1320" height="286" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1584052528525" />
+    <state width="1320" height="286" key="GridCell.Tab.0.right" timestamp="1584052528527">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="260" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1583981951410" />
-    <state width="1320" height="260" key="GridCell.Tab.1.bottom" timestamp="1583981953540">
+    <state width="1320" height="286" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1584052528527" />
+    <state width="1320" height="286" key="GridCell.Tab.1.bottom" timestamp="1584052528530">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="260" key="GridCell.Tab.1.bottom/0.27.1366.741@0.27.1366.741" timestamp="1583981953540" />
-    <state width="1320" height="260" key="GridCell.Tab.1.center" timestamp="1583981953539">
+    <state width="1320" height="286" key="GridCell.Tab.1.bottom/0.27.1366.741@0.27.1366.741" timestamp="1584052528530" />
+    <state width="1320" height="286" key="GridCell.Tab.1.center" timestamp="1584052528529">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="260" key="GridCell.Tab.1.center/0.27.1366.741@0.27.1366.741" timestamp="1583981953539" />
-    <state width="1320" height="260" key="GridCell.Tab.1.left" timestamp="1583981953539">
+    <state width="1320" height="286" key="GridCell.Tab.1.center/0.27.1366.741@0.27.1366.741" timestamp="1584052528529" />
+    <state width="1320" height="286" key="GridCell.Tab.1.left" timestamp="1584052528529">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="260" key="GridCell.Tab.1.left/0.27.1366.741@0.27.1366.741" timestamp="1583981953539" />
-    <state width="1320" height="260" key="GridCell.Tab.1.right" timestamp="1583981953539">
+    <state width="1320" height="286" key="GridCell.Tab.1.left/0.27.1366.741@0.27.1366.741" timestamp="1584052528529" />
+    <state width="1320" height="286" key="GridCell.Tab.1.right" timestamp="1584052528529">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="260" key="GridCell.Tab.1.right/0.27.1366.741@0.27.1366.741" timestamp="1583981953539" />
-    <state width="1320" height="260" key="GridCell.Tab.2.bottom" timestamp="1583981951245">
+    <state width="1320" height="286" key="GridCell.Tab.1.right/0.27.1366.741@0.27.1366.741" timestamp="1584052528529" />
+    <state width="1320" height="241" key="GridCell.Tab.2.bottom" timestamp="1584047973974">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="260" key="GridCell.Tab.2.bottom/0.27.1366.741@0.27.1366.741" timestamp="1583981951245" />
-    <state width="1320" height="260" key="GridCell.Tab.2.center" timestamp="1583981951245">
+    <state width="1320" height="241" key="GridCell.Tab.2.bottom/0.27.1366.741@0.27.1366.741" timestamp="1584047973974" />
+    <state width="1320" height="241" key="GridCell.Tab.2.center" timestamp="1584047973973">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="260" key="GridCell.Tab.2.center/0.27.1366.741@0.27.1366.741" timestamp="1583981951245" />
-    <state width="1320" height="260" key="GridCell.Tab.2.left" timestamp="1583981951245">
+    <state width="1320" height="241" key="GridCell.Tab.2.center/0.27.1366.741@0.27.1366.741" timestamp="1584047973973" />
+    <state width="1320" height="241" key="GridCell.Tab.2.left" timestamp="1584047973973">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="260" key="GridCell.Tab.2.left/0.27.1366.741@0.27.1366.741" timestamp="1583981951245" />
-    <state width="1320" height="260" key="GridCell.Tab.2.right" timestamp="1583981951245">
+    <state width="1320" height="241" key="GridCell.Tab.2.left/0.27.1366.741@0.27.1366.741" timestamp="1584047973973" />
+    <state width="1320" height="241" key="GridCell.Tab.2.right" timestamp="1584047973974">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="260" key="GridCell.Tab.2.right/0.27.1366.741@0.27.1366.741" timestamp="1583981951245" />
+    <state width="1320" height="241" key="GridCell.Tab.2.right/0.27.1366.741@0.27.1366.741" timestamp="1584047973974" />
     <state x="216" y="54" width="924" height="684" key="Maven.ArtifactSearchDialog" timestamp="1583629585171">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="216" y="54" width="924" height="684" key="Maven.ArtifactSearchDialog/0.27.1366.741@0.27.1366.741" timestamp="1583629585171" />
-    <state x="172" y="31" key="SettingsEditor" timestamp="1583969082767">
+    <state x="172" y="31" key="SettingsEditor" timestamp="1584052258562">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="172" y="31" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1583969082767" />
-    <state x="278" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1583633809164">
+    <state x="172" y="31" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1584052258562" />
+    <state x="278" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1584052505085">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="278" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1583633809164" />
+    <state x="278" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1584052505085" />
     <state x="339" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1583968906649">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="339" y="224" key="com.intellij.ide.util.TipDialog/0.27.1366.741@0.27.1366.741" timestamp="1583968906649" />
-    <state x="262" y="107" width="1104" height="578" key="find.popup" timestamp="1583623669094">
+    <state x="262" y="107" width="1104" height="578" key="find.popup" timestamp="1584050759022">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="262" y="107" width="1104" height="578" key="find.popup/0.27.1366.741@0.27.1366.741" timestamp="1583623669094" />
+    <state x="262" y="107" width="1104" height="578" key="find.popup/0.27.1366.741@0.27.1366.741" timestamp="1584050759022" />
     <state x="347" y="175" key="run.anything.popup" timestamp="1583963577638">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="347" y="175" key="run.anything.popup/0.27.1366.741@0.27.1366.741" timestamp="1583963577638" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1583966339512">
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1584051354447">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.27.1366.741@0.27.1366.741" timestamp="1583966339512" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.27.1366.741@0.27.1366.741" timestamp="1584051354447" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -380,17 +401,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/stoloto/logs/logger/GoslotoAppender.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="57" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/stoloto/logs/logger/GoslotoAppender.java</url>
           <line>37</line>
           <option name="timeStamp" value="58" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/stoloto/logs/web/TestWeb.java</url>
-          <line>13</line>
+          <line>14</line>
           <option name="timeStamp" value="61" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
