@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2ec7d0ca-6f99-4912-8332-a7e8f3d8a04d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="logs" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YnnxFgN8J8PjSqT6SHGfgDkMUs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.stoloto.logs.config" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.LogsApplication">
+    <configuration name="LokiSerializer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.stoloto.logs.utils.LokiSerializer" />
+      <module name="logs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stoloto.logs.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapAppender" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.stoloto.logs.config.MapAppender" />
+      <module name="logs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stoloto.logs.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="logs" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.stoloto.logs.LogsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.LokiSerializer" />
+        <item itemvalue="Application.MapAppender" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2ec7d0ca-6f99-4912-8332-a7e8f3d8a04d" name="Default Changelist" comment="" />
+      <created>1583587470876</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583587470876</updated>
+      <workItem from="1583587475927" duration="38326000" />
+      <workItem from="1583961570415" duration="7180000" />
+      <workItem from="1583968881058" duration="13292000" />
+    </task>
+    <task id="LOCAL-00001" summary="gt">
+      <created>1583587555008</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583587555008</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add layout">
+      <created>1583605785317</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1583605785317</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add logger">
+      <created>1583623597705</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1583623597705</updated>
+    </task>
+    <task id="LOCAL-00004" summary="configure log4j2.yml">
+      <created>1583633807806</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1583633807806</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="gt" />
+    <MESSAGE value="add layout" />
+    <MESSAGE value="add logger" />
+    <MESSAGE value="configure log4j2.yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="configure log4j2.yml" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="491" y="109" width="374" height="575" key="#com.intellij.ide.util.MemberChooser" timestamp="1583979285329">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="491" y="109" width="374" height="575" key="#com.intellij.ide.util.MemberChooser/0.27.1366.741@0.27.1366.741" timestamp="1583979285329" />
+    <state x="160" y="27" width="1035" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1583625183561">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="160" y="27" width="1035" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.27.1366.741@0.27.1366.741" timestamp="1583625183561" />
+    <state x="638" y="177" width="728" height="591" key="#xdebugger.evaluate" timestamp="1583982277151">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="638" y="177" width="728" height="591" key="#xdebugger.evaluate/0.27.1366.741@0.27.1366.741" timestamp="1583982277151" />
+    <state x="245" y="27" width="865" height="741" key="CommitChangelistDialog2" timestamp="1583633807720">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="245" y="27" width="865" height="741" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1583633807720" />
+    <state x="100" y="125" width="1166" height="543" key="DiffContextDialog" timestamp="1583765449682">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="100" y="125" width="1166" height="543" key="DiffContextDialog/0.27.1366.741@0.27.1366.741" timestamp="1583765449682" />
+    <state x="466" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1583961835396">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="466" y="154" width="424" height="484" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1583961835396" />
+    <state width="1320" height="260" key="GridCell.Tab.0.bottom" timestamp="1583981951410">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="260" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1583981951410" />
+    <state width="1320" height="260" key="GridCell.Tab.0.center" timestamp="1583981951409">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="260" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1583981951409" />
+    <state width="1320" height="260" key="GridCell.Tab.0.left" timestamp="1583981951409">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="260" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1583981951409" />
+    <state width="1320" height="260" key="GridCell.Tab.0.right" timestamp="1583981951410">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="260" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1583981951410" />
+    <state width="1320" height="260" key="GridCell.Tab.1.bottom" timestamp="1583981953540">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="260" key="GridCell.Tab.1.bottom/0.27.1366.741@0.27.1366.741" timestamp="1583981953540" />
+    <state width="1320" height="260" key="GridCell.Tab.1.center" timestamp="1583981953539">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="260" key="GridCell.Tab.1.center/0.27.1366.741@0.27.1366.741" timestamp="1583981953539" />
+    <state width="1320" height="260" key="GridCell.Tab.1.left" timestamp="1583981953539">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="260" key="GridCell.Tab.1.left/0.27.1366.741@0.27.1366.741" timestamp="1583981953539" />
+    <state width="1320" height="260" key="GridCell.Tab.1.right" timestamp="1583981953539">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="260" key="GridCell.Tab.1.right/0.27.1366.741@0.27.1366.741" timestamp="1583981953539" />
+    <state width="1320" height="260" key="GridCell.Tab.2.bottom" timestamp="1583981951245">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="260" key="GridCell.Tab.2.bottom/0.27.1366.741@0.27.1366.741" timestamp="1583981951245" />
+    <state width="1320" height="260" key="GridCell.Tab.2.center" timestamp="1583981951245">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="260" key="GridCell.Tab.2.center/0.27.1366.741@0.27.1366.741" timestamp="1583981951245" />
+    <state width="1320" height="260" key="GridCell.Tab.2.left" timestamp="1583981951245">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="260" key="GridCell.Tab.2.left/0.27.1366.741@0.27.1366.741" timestamp="1583981951245" />
+    <state width="1320" height="260" key="GridCell.Tab.2.right" timestamp="1583981951245">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="260" key="GridCell.Tab.2.right/0.27.1366.741@0.27.1366.741" timestamp="1583981951245" />
+    <state x="216" y="54" width="924" height="684" key="Maven.ArtifactSearchDialog" timestamp="1583629585171">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="216" y="54" width="924" height="684" key="Maven.ArtifactSearchDialog/0.27.1366.741@0.27.1366.741" timestamp="1583629585171" />
+    <state x="172" y="31" key="SettingsEditor" timestamp="1583969082767">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="172" y="31" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1583969082767" />
+    <state x="278" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1583633809164">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="278" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1583633809164" />
+    <state x="339" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1583968906649">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="339" y="224" key="com.intellij.ide.util.TipDialog/0.27.1366.741@0.27.1366.741" timestamp="1583968906649" />
+    <state x="262" y="107" width="1104" height="578" key="find.popup" timestamp="1583623669094">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="262" y="107" width="1104" height="578" key="find.popup/0.27.1366.741@0.27.1366.741" timestamp="1583623669094" />
+    <state x="347" y="175" key="run.anything.popup" timestamp="1583963577638">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="347" y="175" key="run.anything.popup/0.27.1366.741@0.27.1366.741" timestamp="1583963577638" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1583966339512">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.27.1366.741@0.27.1366.741" timestamp="1583966339512" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-core/2.12.1/log4j-core-2.12.1-sources.jar!/org/apache/logging/log4j/core/layout/AbstractJacksonLayout.java</url>
+          <line>319</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-core/2.12.1/log4j-core-2.12.1-sources.jar!/org/apache/logging/log4j/core/config/plugins/util/PluginBuilder.java</url>
+          <line>233</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.10.2/jackson-databind-2.10.2.jar!/com/fasterxml/jackson/databind/introspect/POJOPropertyBuilder.class</url>
+          <line>299</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/stoloto/logs/config/LokiLogEvent.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.10.2/jackson-databind-2.10.2-sources.jar!/com/fasterxml/jackson/databind/introspect/POJOPropertyBuilder.java</url>
+          <line>425</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.10.2/jackson-databind-2.10.2-sources.jar!/com/fasterxml/jackson/databind/introspect/POJOPropertyBuilder.java</url>
+          <line>580</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.10.2/jackson-databind-2.10.2-sources.jar!/com/fasterxml/jackson/databind/introspect/POJOPropertyBuilder.java</url>
+          <line>582</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-core/2.12.1/log4j-core-2.12.1-sources.jar!/org/apache/logging/log4j/core/impl/ThrowableFormatOptions.java</url>
+          <line>115</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/stoloto/logs/config/LokiLogEvent.java</url>
+          <line>100</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.10.2/jackson-databind-2.10.2-sources.jar!/com/fasterxml/jackson/databind/introspect/JacksonAnnotationIntrospector.java</url>
+          <line>912</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.10.2/jackson-databind-2.10.2-sources.jar!/com/fasterxml/jackson/databind/introspect/JacksonAnnotationIntrospector.java</url>
+          <line>927</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-core/2.12.1/log4j-core-2.12.1-sources.jar!/org/apache/logging/log4j/core/appender/HttpURLConnectionManager.java</url>
+          <line>105</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/stoloto/logs/config/GoslotoAppender.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/stoloto/logs/config/GoslotoAppender.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/stoloto/logs/config/GoslotoAppender.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/stoloto/logs/web/TestWeb.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/stoloto/logs/config/MapAppender.java</url>
+          <line>94</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/stoloto/logs/config/MapAppender.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/stoloto/logs/config/MapAppender.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
