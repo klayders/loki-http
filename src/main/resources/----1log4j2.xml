@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+
+    <Appenders>
+
+        <RollingFile name="application" fileName="home/finch/application.log"
+                     filePattern="/application.%d{yyyy-MM-dd}_%i.log">
+
+            <PatternLayout pattern="%d{ISO8601}{GMT} %-5p %C{2} (%F:%L) - %m%n"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy/>
+                <SizeBasedTriggeringPolicy size="1 GB"/>
+            </Policies>
+
+        </RollingFile>
+
+
+        <Console name="out" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{ISO8601}{GMT} %-5p %C{2} (%F:%L) - %m%n"/>
+        </Console>
+
+        <Async name="asyncApplication">
+            <AppenderRef ref="application"/>
+        </Async>
+
+        <Async name="asyncFramework">
+            <AppenderRef ref="out"/>
+        </Async>
+
+
+    </Appenders>
+
+
+    <Loggers>
+
+        <AsyncLogger name="com.stoloto" level="debug"
+                     includeLocation="true">
+            <AppenderRef ref="application"/>
+            <AppenderRef ref="out"/>
+        </AsyncLogger>
+
+        <Root level="debug" includeLocation="true">
+            <AppenderRef ref="application"/>
+            <!--            <AppenderRef ref="out"/>-->
+        </Root>
+
+    </Loggers>
+
+
+</Configuration>
