@@ -1,4 +1,4 @@
-package com.stoloto.logs.config.pojo;
+package com.stoloto.logs.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
@@ -15,13 +15,13 @@ public class Stream {
     @JsonProperty("appName")
     private String appName;
 
-    @JsonProperty("ts")
-    private long ts;
+	//    @JsonProperty("ts")
+	//    private long ts;
 
     public static Stream of(String appName, long date) {
         return Stream.builder()
                 .appName(appName)
-                .ts(date)
+			//                .ts(date)
                 .build();
     }
 

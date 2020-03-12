@@ -1,11 +1,19 @@
-package com.stoloto.logs.config;
+package com.stoloto.logs.logger;
 
 
+import static org.apache.logging.log4j.core.jackson.JsonConstants.ELT_INSTANT;
+import static org.apache.logging.log4j.core.jackson.JsonConstants.ELT_NANO_TIME;
 
 import com.fasterxml.jackson.core.util.MinimalPrettyPrinter;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ser.impl.SimpleBeanPropertyFilter;
 import com.fasterxml.jackson.databind.ser.impl.SimpleFilterProvider;
+import java.io.IOException;
+import java.nio.charset.StandardCharsets;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
 import org.apache.logging.log4j.core.Layout;
 import org.apache.logging.log4j.core.LogEvent;
 import org.apache.logging.log4j.core.config.Node;
@@ -20,16 +28,6 @@ import org.apache.logging.log4j.core.layout.AbstractStringLayout;
 import org.apache.logging.log4j.core.util.KeyValuePair;
 import org.apache.logging.log4j.core.util.StringBuilderWriter;
 import org.apache.logging.log4j.util.Strings;
-
-import java.io.IOException;
-import java.nio.charset.StandardCharsets;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
-
-import static org.apache.logging.log4j.core.jackson.JsonConstants.ELT_INSTANT;
-import static org.apache.logging.log4j.core.jackson.JsonConstants.ELT_NANO_TIME;
 
 /**
  * Borrowed heavily from org.apache.logging.log4j.core.layout.JsonLayout

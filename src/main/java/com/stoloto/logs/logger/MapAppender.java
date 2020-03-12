@@ -1,11 +1,19 @@
-package com.stoloto.logs.config;
+package com.stoloto.logs.logger;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.stoloto.logs.config.pojo.*;
+import com.stoloto.logs.model.LokiDelegateLogEvent;
+import com.stoloto.logs.model.LokiRequest;
+import com.stoloto.logs.model.Stream;
+import com.stoloto.logs.model.StreamsItem;
+import java.io.Serializable;
+import java.util.List;
+import java.util.Map;
 import lombok.SneakyThrows;
-import org.apache.commons.text.StringEscapeUtils;
-import org.apache.logging.log4j.core.*;
+import org.apache.logging.log4j.core.Appender;
+import org.apache.logging.log4j.core.Core;
+import org.apache.logging.log4j.core.Filter;
+import org.apache.logging.log4j.core.Layout;
+import org.apache.logging.log4j.core.LogEvent;
 import org.apache.logging.log4j.core.appender.AbstractAppender;
 import org.apache.logging.log4j.core.config.Property;
 import org.apache.logging.log4j.core.config.plugins.Plugin;
@@ -16,15 +24,6 @@ import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
 import org.springframework.web.client.RestTemplate;
-
-import java.io.Serializable;
-import java.time.Instant;
-import java.util.Collections;
-import java.util.Date;
-import java.util.List;
-import java.util.Map;
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.ConcurrentMap;
 
 @Plugin(
         name = "MapAppender",
@@ -65,26 +64,16 @@ public class MapAppender extends AbstractAppender {
         var lokiJsonObject = LokiDelegateLogEvent.ofLogEvent(event);
         var lokiStringValue = objectMapper.writeValueAsString(lokiJsonObject);
 
-        lokiStringValue = '"' +
-                lokiStringValue +
-                '"';
-//        var lokiStreamValueEscaped = StringEscapeUtils.escapeJson(lokiStringValue);
-
         long nanoTime = event.getInstant().getEpochMillisecond();
 
         var streamsItems = StreamsItem.builder()
                 .stream(
-                        Stream.of(
+					Stream.of(
                                 "test",
                                 nanoTime
                         )
                 )
-                .values(
-                        List.of(
-                                List.of(
-//                                        ТАКОГО ДЕРЬМА Я ЕЩЕ НЕ РАЗУ НЕ ПИСАЛ
-                                         nanoTime + ":" + lokiStringValue
-                                )))
+			.values(Map.of(nanoTime, lokiStringValue))
                 .build();
 
         var result = LokiRequest.builder()
@@ -94,8 +83,9 @@ public class MapAppender extends AbstractAppender {
 
         var logEventHttpEntity = new HttpEntity<>(result, headers);
 
-        var s = REST_TEMPLATE.postForObject("http://localhost:8080/log", logEventHttpEntity, String.class);
-//        var s = REST_TEMPLATE.postForObject("http://10.229.8.23:3100/loki/api/v1/push", logEventHttpEntity, String.class);
+		//        var s = REST_TEMPLATE.postForObject("http://localhost:8080/do", logEventHttpEntity, String.class);
+		var s = REST_TEMPLATE
+			.postForObject("http://10.229.8.23:3100/loki/api/v1/push", logEventHttpEntity, String.class);
 
     }
 

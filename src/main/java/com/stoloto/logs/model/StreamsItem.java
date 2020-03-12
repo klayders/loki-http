@@ -1,13 +1,13 @@
-package com.stoloto.logs.config.pojo;
+package com.stoloto.logs.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
+import com.stoloto.logs.utils.LokiCustomSerializer;
+import java.util.Map;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
-import java.util.List;
-import java.util.Map;
 
 @Data
 @Builder
@@ -18,7 +18,7 @@ public class StreamsItem {
     @JsonProperty("stream")
     private Stream stream;
     @JsonProperty("values")
-//    private Map<Long, String> values;
-    private List<Object> values;
+	@JsonSerialize(using = LokiCustomSerializer.class)
+	private Map<Long, String> values;
 
 }
